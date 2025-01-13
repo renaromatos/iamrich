@@ -12,10 +12,11 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
-          child: Image(image: NetworkImage("https://i.pinimg.com/474x/66/e0/44/66e04451287ef277d1f0edfe685ac546.jpg")),
-        )          
+          child: Image(
+            image: AssetImage("images/diamond.png"),
+            ),
+        ),
       ),
     ),
   );
 }
-
